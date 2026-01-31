@@ -1,0 +1,88 @@
+{
+  "name": "تطبيق إدارة القوانين الجزائرية",
+  "short_name": "القوانين الجزائرية",
+  "description": "تطبيق متكامل لتسيير وإدارة القوانين الجزائرية",
+  "theme_color": "#1976d2",
+  "background_color": "#ffffff",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "scope": "./",
+  "start_url": "./",
+  "lang": "ar",
+  "dir": "rtl",
+  "categories": [
+    "productivity",
+    "business",
+    "government"
+  ],
+  "prefer_related_applications": false,
+  "edge_side_panel": {
+    "preferred_width": 400
+  },
+  "launch_handler": {
+    "client_mode": "navigate-existing"
+  },
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "logo192.png",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "logo512.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "any"
+    },
+    {
+      "src": "apple-touch-icon.png",
+      "type": "image/png",
+      "sizes": "180x180",
+      "purpose": "any"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "البحث في القوانين",
+      "short_name": "البحث",
+      "description": "البحث السريع في القوانين",
+      "url": "./search",
+      "icons": [
+        {
+          "src": "search-icon.png",
+          "sizes": "96x96"
+        }
+      ]
+    },
+    {
+      "name": "إضافة قانون جديد",
+      "short_name": "إضافة",
+      "description": "إضافة قانون جديد",
+      "url": "./laws/add",
+      "icons": [
+        {
+          "src": "add-icon.png",
+          "sizes": "96x96"
+        }
+      ]
+    },
+    {
+      "name": "الإحصائيات",
+      "short_name": "الإحصائيات",
+      "description": "عرض إحصائيات القوانين",
+      "url": "./statistics",
+      "icons": [
+        {
+          "src": "stats-icon.png",
+          "sizes": "96x96"
+        }
+      ]
+    }
+  ]
+}
